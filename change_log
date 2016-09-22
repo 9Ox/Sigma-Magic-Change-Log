@@ -1,0 +1,119 @@
+Version 4.2 (9/22/2016)
+-> Updated the algorithm for detecting whether or not your player is out of supplies. This should fix the problem where the script
+   would end prematurely even if you had enough items to continue
+
+Version 4.1 (7/11/2016)
+-> Sigma Magic now supports script arguments.
+-> Instructions for script arguments: Type the exact spell name as it looks in RuneScape (image for reference) and then the spell data
+   (if any). Examples: High Level Alchemy:Yew longbow (alch), Superheat Item:Iron bar (super heating),
+   High Level Alchemy:Curse:Yew longbow:Guard (alch + curse)
+
+Version 4.03 (2/22/2016)
+-> Removed the mouse trail so that the script will work better on VPS's
+-> Improved plank make and enchantment efficiency by having the script hover the spell while waiting for an action to happen
+
+Version 4.01 (2/15/2016)
+-> Fixed a problem where the script would click planks too many times when using the plank make spell
+
+Version 4.0 (1/18/2016)
+-> Sigma Magic now implements Anti-ban Compliance 2.0 Level 10!
+-> Fixed a problem where the script would double-click on npc's and objects
+
+
+
+
+Version 3.08 (11/9/2015)
+-> Fixed a bug with superheating where the script would not deposit all of the bars when using steel or higher bars
+
+Version 3.07 (11/5/2015)
+-> Disabled double-clicking anti-ban from tribot so that cursing will be much smoother (this should also help with the climbing
+   up-stairs issue at the zamorak mage)
+
+Version 3.06 (11/2/2015)
+-> Fixed a bug with the superglass make spell
+-> Added a failsafe to the script when cursing the monk of zamorak. The script will now walk back downstairs if tribot mis-clicks.
+
+Version 3.05 (10/23/2015)
+-> Converted extra clicking methods to custom clicking api
+
+Version 3.04 (10/21/2015)
+-> Converted clicking methods to my custom clicking api which checks for correct crosshairs for more precision
+-> Added various checks to make the script wait before trying to open up the magic/inventory tabs so that the script will right-click
+   less often and cancel the current option less often
+-> Sigma Magic will now display "Performing client action" in the status area on the paint when the TRiBot client has paused the main
+   script thread to perform an anti-ban action
+
+Version 3.03 (10/21/2015)
+-> Fixed an IllegalAccessorError in the script framework
+
+Version 3.02 (10/21/2015)
+-> Fixed a bug where the script would sometimes fail to recognize items in the bank if they were being retrieved by name
+
+Version 3.01 (10/19/2015)
+-> Fixed a bug with the Superglass make spell
+
+Version 3.0 (10/14/2015)
+-> Moved entire script over to a new abstract framework
+-> Replaced the paint with a more minimal style paint
+-> Updated the mouse paint to the new Sigma Premium mouse paint
+-> Updated how the script checks if it should stop when it detects it has no runes or items left (this should make it detect
+   everything faster and more efficiently)
+-> Updated how the script sends the client data for why the script was stopped (this should make the script be 100% accurate when
+   telling you why it stopped)
+
+
+
+
+Version 2.11 (9/21/2015)
+-> GUI templates now save in the .../Sigma/Magic/ directory, you will have to delete your templates and remake them if you haven't
+   created new ones on this version or newer
+-> Spell constants moved to an interface framework
+-> CPU performance has been improved marginally
+-> Fixed a small bug with bolt enchantment
+-> Removed game-tick tracking in Plank make and Superheating spells due to the removal of queue action blocking from a RuneScape
+   update
+
+Version 2.0
+-> Added Superglass make and Bones to fruit spells
+-> New script framework
+-> New paint and GUI
+-> Added a beautiful splash art
+-> Increased efficiency of anti-ban compliance
+-> Added script diagnosis to tell you why the script stopped
+
+
+
+
+Version 1.5
+-> Alchemy and Curse/Alchemy tasks will now move the item you are alching to the correct inventory space for increased efficiency if
+   it is not already placed correctly
+
+Version 1.4
+-> Various improvements related to GUI function
+-> Updated all GUI drop down menus to filter duplicates and to display a more readable format of text
+   (e.g. "BRONZE" is now "Bronze bar")
+-> Updated superheating to cast superheat based on the last game-tick that the previous spell was cast on to be more precise
+   (still uses anti-ban compliance wait delays)
+-> Added the Plank make spell
+-> Added the option to change the mouse speed; It is not recommended to override the default mouse speed of 105
+
+Version 1.3
+-> Fixed a superheating bug
+-> Reduced mouse speed to comply with premium script requirements
+-> Added more anti-ban compliance methods
+-> Updated main class and other various classes to use less code & updated paint to be more conservative
+
+Version 1.2
+-> Updated script to use player definitions for equipment retrieval
+-> Fixed instant logout bug
+-> Fixed long delay between spell casts
+
+Version 1.1
+-> Optimized speed of superheating
+-> Fixed a small bug with the mouse paint
+-> Added the ability to show/hide the paint
+-> Added the Humidify spell
+-> Added the String jewellery spell
+
+Version 1.0
+-> Release version
