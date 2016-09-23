@@ -1,3 +1,6 @@
+Version 4.21 (9/23/2016)
+-> Updated String Jewelry to have the script open the inventory after casting the spell
+
 Version 4.2 (9/22/2016)
 -> Updated the algorithm for detecting whether or not your player is out of supplies. This should fix the problem where the script
    would end prematurely even if you had enough items to continue
