@@ -1,3 +1,7 @@
+Version 4.22 (10/2/2016)
+-> Added my custom sleeping anti-ban to Sigma Magic. Your unique seed generated based on your tribot username will be printed out
+   at the start of the script so that you can see your seed
+
 Version 4.21 (9/23/2016)
 -> Updated String Jewelry to have the script open the inventory after casting the spell
 
