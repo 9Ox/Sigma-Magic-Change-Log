@@ -1,3 +1,7 @@
+Version 4.23 (8/23/2018)
+-> Added more anti-ban sleeps in correct locations during spell casting
+-> Fixed some minor bugs that had to do with the make-sets interface changes
+
 Version 4.22 (10/2/2016)
 -> Added my custom sleeping anti-ban to Sigma Magic. Your unique seed generated based on your tribot username will be printed out
    at the start of the script so that you can see your seed
